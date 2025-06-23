@@ -1,0 +1,3 @@
+#!/bin/sh
+
+make V=s -j5 2>&1 | tee log
